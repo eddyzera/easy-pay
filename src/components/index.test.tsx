@@ -1,7 +1,7 @@
 import React from 'react'
 import { render } from '@testing-library/react'
 import '@testing-library/jest-dom'
-import { Hello } from './Hello'
+import { Hello } from '.'
 
 describe('Test Jest', () => {
   it('should render component without errors', () => {
